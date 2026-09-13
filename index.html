@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unduh Bel Sekolah Otomatis</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between font-sans">
+
+    <!-- Header / Navbar -->
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-bell text-sky-400 text-2xl"></i>
+                <span class="font-bold text-xl tracking-wide">BelSekolah.id</span>
+            </div>
+            <span class="bg-sky-500/10 text-sky-400 text-xs font-semibold px-3 py-1 rounded-full border border-sky-500/20">
+                v1.0.0 Stable
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Content / Hero Section -->
+    <main class="max-w-4xl mx-auto px-6 py-16 text-center my-auto">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent">
+            Aplikasi Bel Sekolah Otomatis
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+            Solusi praktis penjadwalan bell sekolah modern. Dilengkapi tampilan jam analog presisi, berbagai pilihan tema visual, dan integrasi cek update otomatis.
+        </p>
+
+        <!-- Tombol Download -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+            <!-- Ganti href dengan link file .exe rilis kamu -->
+            <a href="https://github.com/belsekolah/belsekolah.github.io/releases/download/v1.0.0/BelSekolah_Setup.exe" 
+               class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold px-8 py-4 rounded-xl shadow-lg shadow-sky-500/25 transition-all duration-200 transform hover:-translate-y-0.5">
+                <i class="fa-solid fa-download text-lg"></i>
+                Unduh Installer (.exe)
+            </a>
+            <a href="#fitur" 
+               class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold px-6 py-4 rounded-xl border border-slate-700 transition-all">
+                Lihat Fitur
+            </a>
+        </div>
+
+        <!-- Cards Fitur Utama -->
+        <div id="fitur" class="grid md:grid-cols-3 gap-6 text-left">
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50">
+                <div class="w-12 h-12 bg-sky-500/10 rounded-xl flex items-center justify-center mb-4 text-sky-400 text-xl">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Jam Analog & Digital</h3>
+                <p class="text-slate-400 text-sm">Visualisasi waktu mulus dengan teknik rendering Anti-Aliasing dan format tanggal Indonesia.</p>
+            </div>
+
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50">
+                <div class="w-12 h-12 bg-indigo-500/10 rounded-xl flex items-center justify-center mb-4 text-indigo-400 text-xl">
+                    <i class="fa-solid fa-palette"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Tema & Gaya Visual</h3>
+                <p class="text-slate-400 text-sm">Dukungan Dark/Light Mode serta 4 variasi desain jam (Modern, Neon, Classic, Minimal Flat).</p>
+            </div>
+
+            <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mb-4 text-emerald-400 text-xl">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Auto Update Check</h3>
+                <p class="text-slate-400 text-sm">Sistem pengecekan pembaruan otomatis dari cloud tanpa menggangu operasional sekolah.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 BelSekolah. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
