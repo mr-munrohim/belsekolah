@@ -1,5 +1,11 @@
 {
-  "latest_version": "1.0.0",
-  "download_url": "https://mr-munrohim.github.io/belsekolah",
-  "changelog": "1. Peluncuran perdana aplikasi Bel Sekolah Otomatis.\n2. Fitur Jam Analog & Digital interaktif.\n3. Dukungan Tema Dark/Light Mode."
+  "version": "1.2.0",
+  "build": 102,
+  "changelog": [
+    "Penambahan fitur bel otomatis berdasarkan jadwal",
+    "Perbaikan bug pada pemutaran audio",
+    "Pembaruan antarmuka pengguna"
+  ],
+  "download_url": "https://mr-munrohim.github.io/belsekolah/downloads/setup-v1.2.0.exe",
+  "mandatory": false
 }
