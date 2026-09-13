@@ -1,10 +1,5 @@
 {
-  "version": "1.2.0",
-    "changelog": [
-    "Penambahan fitur bel otomatis berdasarkan jadwal",
-    "Perbaikan bug pada pemutaran audio",
-    "Pembaruan antarmuka pengguna"
-  ],
+  "latest_version": "1.0.0",
   "download_url": "https://mr-munrohim.github.io/belsekolah",
-  "mandatory": false
+  "changelog": "Rilis Perdana."
 }
