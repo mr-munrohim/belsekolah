@@ -1,7 +1,6 @@
 {
   "version": "1.2.0",
-  "build": 102,
-  "changelog": [
+    "changelog": [
     "Penambahan fitur bel otomatis berdasarkan jadwal",
     "Perbaikan bug pada pemutaran audio",
     "Pembaruan antarmuka pengguna"
